@@ -1280,11 +1280,12 @@ html {
 .about-image-part {
     text-align: center;
     padding: 40px;
+    
     border: 1px solid rgba(0, 0, 0, 0.05);
     border-radius: 20px;
     box-shadow: rgba(255, 255, 255, 0.025) 0px 0.362176px 0.651917px -1px inset, rgba(255, 255, 255, 0.036) 0px 3px 5.4px -2px inset;
     background-color: #121214;
-    height: auto;
+    height: 100%;
 }
 
 .about-content-part,
@@ -1681,6 +1682,7 @@ ul.extra-skills li i {
     border-radius: 20px;
     box-shadow: rgba(255, 255, 255, 0.025) 0px 0.362176px 0.651917px -1px inset, rgba(255, 255, 255, 0.036) 0px 3px 5.4px -2px inset;
     background-color: #121214;
+    height: 100%;
 }
 
 .single-project-page-design {
@@ -3040,3 +3042,17 @@ ul.blog_pagination li a:hover {
     border: 1px solid var(--border-color);
 }
 
+.store-buttons {
+  display: flex;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.store-btn img {
+  height: 55px; /* adjust size if you want */
+  transition: 0.3s;
+}
+
+.store-btn img:hover {
+  transform: scale(1.05);
+}
