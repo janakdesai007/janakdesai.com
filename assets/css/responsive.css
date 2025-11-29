@@ -249,6 +249,8 @@ Version      : 1.0
 
     .single-project-page-right {
         margin-top: 30px;
+        margin-bottom: 30px;
+        height: auto;
     }
 
     .copyright-text,
